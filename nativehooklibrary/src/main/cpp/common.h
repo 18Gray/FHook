@@ -1,53 +1,37 @@
-#include <sys/ptrace.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <sys/user.h>
-#include <sys/wait.h>
+/*
+ * common.h
+ *
+ *  Created on: 2014年9月18日
+ *      Author: boyliang
+ */
+
+#ifndef COMMON_H_
+#define COMMON_H_
+
+//#include <cutils/log.h>
 #include <stdlib.h>
-#include <stdio.h>
-#include <sys/reg.h>
-#include <android/log.h>
-#include <errno.h>
-#include <string.h>
 
-
-
-#define LOG_TAG "AndroidPtrace"
-
-#ifdef __i386__
-#define TOTAL_SYSCALL 444
+#ifdef LOG_TAG
+#undef LOG_TAG
+#define LOG_TAG "TTT"
 #endif
 
-
-#ifdef __x86_64__
-#define TOTAL_SYSCALL 316
+#ifdef DEBUG
+#define LOGI(...) ALOGI(__VA_ARGS__)
+#define LOGE(...) ALOGE(__VA_ARGS__)
+#define LOGW(...) ALOGW(__VA_ARGS__)
+#else
+#define LOGI(...) while(0){}
+#define LOGE(...) while(0){}
+#define LOGW(...) while(0){}
 #endif
 
-#ifdef __arm__
-#define TOTAL_SYSCALL 444
-#endif
+#define CHECK_VALID(V) 				\
+	if(V == NULL){					\
+		LOGE("%s is null.", #V);	\
+		exit(-1);					\
+	}else{							\
+		LOGI("%s is %p.", #V, V);	\
+	}								\
 
-#define MAX_SYSCALL_ARGS 6
-
-
-
-
-
-struct syscall_info{
-	char name[150];
-	int num_args;
-
-
-};
-
-struct syscall_info *syscall_table[TOTAL_SYSCALL];
-
-//Methods
-void cleanup_syscall_tabel();
-void parse_system_call_name(char* filename);
-void print_syscall(int pid);
-int trace_syscall(int pid);
-void get_return_value(int pid);
-void print_syscall_arm(int pid);
-
-
+#endif /* COMMON_H_ */

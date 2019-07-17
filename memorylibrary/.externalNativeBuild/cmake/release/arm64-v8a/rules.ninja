@@ -22,7 +22,7 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__native-lib
+rule CXX_COMPILER__shmemlib
   depfile = $DEP_FILE
   deps = gcc
   command = /Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++  --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
@@ -32,7 +32,7 @@ rule CXX_COMPILER__native-lib
 #############################################
 # Rule for linking CXX shared library.
 
-rule CXX_SHARED_LIBRARY_LINKER__native-lib
+rule CXX_SHARED_LIBRARY_LINKER__shmemlib
   command = $PRE_LINK && /Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++  --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__native-lib
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/lutao/sdk/cmake/3.6.4111459/bin/cmake -H/Users/lutao/Projects/MyProjects/FHook/memorylibrary -B/Users/lutao/Projects/MyProjects/FHook/memorylibrary/.externalNativeBuild/cmake/release/arm64-v8a
+  command = /Users/lutao/sdk/cmake/3.6.4111459/bin/cmake -H/Users/lutao/Projects/Hook/FHook/memorylibrary -B/Users/lutao/Projects/Hook/FHook/memorylibrary/.externalNativeBuild/cmake/release/arm64-v8a
   description = Re-running CMake...
   generator = 1
 

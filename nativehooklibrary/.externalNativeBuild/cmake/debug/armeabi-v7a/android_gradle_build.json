@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"main-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "main",
+			"buildCommand" : "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/armeabi-v7a --target main",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmain_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/src/main/cpp/main.cpp",
+					"workingDirectory" : "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so",
+			"toolchain" : "13597650127659421205"
+		}
+	},
+	"toolchains" : 
+	{
+		"13597650127659421205" : 
+		{
+			"cCompilerExecutable" : "/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/Users/lutao/Projects/MyProjects/FHook/memorylibrary/CMakeLists.txt"
+    "/Users/lutao/Projects/Hook/FHook/memorylibrary/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/MyProjects/FHook/memorylibrary/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/memorylibrary/.externalNativeBuild/cmake/debug/x86_64 --target clean"
   ],
   "libraries": {
-    "native-lib-Debug-x86_64": {
-      "artifactName": "native-lib",
-      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/MyProjects/FHook/memorylibrary/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+    "shmemlib-Debug-x86_64": {
+      "artifactName": "shmemlib",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/memorylibrary/.externalNativeBuild/cmake/debug/x86_64 --target shmemlib",
       "abi": "x86_64",
-      "output": "/Users/lutao/Projects/MyProjects/FHook/memorylibrary/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+      "output": "/Users/lutao/Projects/Hook/FHook/memorylibrary/build/intermediates/cmake/debug/obj/x86_64/libshmemlib.so"
     }
   }
 }
