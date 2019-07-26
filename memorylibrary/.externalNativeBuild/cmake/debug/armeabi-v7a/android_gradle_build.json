@@ -19,7 +19,7 @@
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dshmemlib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/lutao/Projects/Hook/FHook/memorylibrary/src/main/cpp/shmem.cpp",
+					"src" : "/Users/lutao/Projects/Hook/FHook/memorylibrary/src/main/cpp/shm/shmem.cpp",
 					"workingDirectory" : "/Users/lutao/Projects/Hook/FHook/memorylibrary/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				}
 			],

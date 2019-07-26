@@ -1,6 +1,10 @@
 
 cmake_minimum_required(VERSION 3.4.1)
-
+#project (Tutorial)
+# 版本号 1.0
+#set (Tutorial_VERSION_MAJOR 1)
+#set (Tutorial_VERSION_MINOR 0)
+#add_executable(Tutorial tutorial.cxx)
 
 add_library( # Sets the name of the library.
         shmemlib
@@ -9,7 +13,7 @@ add_library( # Sets the name of the library.
         SHARED
 
         # Provides a relative path to your source file(s).
-        src/main/cpp/shmem.cpp
+        src/main/cpp/shm/shmem.cpp
         )
 
 

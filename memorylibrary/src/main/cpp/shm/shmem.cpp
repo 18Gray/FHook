@@ -6,15 +6,6 @@
 #include <sys/shm.h>
 
 
-extern "C" JNIEXPORT jstring JNICALL
-Java_com_eighteengray_fhook_MainActivity_stringFromJNI(
-        JNIEnv *env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
-    return env->NewStringUTF(hello.c_str());
-}
-
-
 int shmRead(){
     void *shm = NULL;//分配的共享内存的原始首地址
     struct shared_use_st *shared;//指向shm
@@ -41,7 +32,7 @@ int shmRead(){
 }
 
 
-int main()
+int shmWrite()
 {
     void *shm = NULL;
     struct shared_use_st *shared = NULL;
@@ -68,12 +59,14 @@ int main()
         if(strncmp(buffer, "end", 3) == 0){
 
         }
-//            running = 0;
     }
+
     //把共享内存从当前进程中分离
-    if(shmdt(shm) == -1)   {    }
-    sleep(2);
+    if(shmdt(shm) == -1)  { }
+    //删除共享内存
+    if(shmctl(shmid, IPC_RMID, 0) == -1)   {  }
     exit(EXIT_SUCCESS);
+
 }
 
 
