@@ -19,7 +19,6 @@
 
         <activity android:name=".TestActivity"/>
 
-
     </application>
 
 </manifest>

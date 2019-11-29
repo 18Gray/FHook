@@ -1,3 +1,4 @@
+/*
 #include <jni.h>
 #include <string>
 #include <stdio.h>
@@ -88,3 +89,4 @@ int shmWrite()
 
 
 
+*/

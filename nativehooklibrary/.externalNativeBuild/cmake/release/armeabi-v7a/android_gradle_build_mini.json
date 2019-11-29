@@ -11,6 +11,12 @@
       "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/release/armeabi-v7a --target main",
       "abi": "armeabi-v7a",
       "output": "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/build/intermediates/cmake/release/obj/armeabi-v7a/libmain.so"
+    },
+    "Tutorial-Release-armeabi-v7a": {
+      "artifactName": "Tutorial",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/release/armeabi-v7a --target Tutorial",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/release/armeabi-v7a/Tutorial"
     }
   }
 }

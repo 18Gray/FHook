@@ -11,6 +11,12 @@
       "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/x86 --target main",
       "abi": "x86",
       "output": "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/build/intermediates/cmake/debug/obj/x86/libmain.so"
+    },
+    "Tutorial-Debug-x86": {
+      "artifactName": "Tutorial",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/x86 --target Tutorial",
+      "abi": "x86",
+      "output": "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/x86/Tutorial"
     }
   }
 }

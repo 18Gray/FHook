@@ -18,7 +18,7 @@
 			[
 				
 				{
-					"flags" : "  --target=x86_64-none-linux-android26 --gcc-toolchain=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmain_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=x86_64-none-linux-android26 --gcc-toolchain=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lutao/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmain_EXPORTS -I.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/src/main/cpp/main.cpp",
 					"workingDirectory" : "/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/debug/x86_64"
 				}
