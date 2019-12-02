@@ -1,0 +1,2 @@
+/Users/lutao/Projects/Hook/FHook/artmethodhook/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/artmethodhook/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

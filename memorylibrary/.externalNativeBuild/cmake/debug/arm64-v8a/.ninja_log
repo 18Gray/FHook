@@ -1,4 +1,0 @@
-# ninja log v5
-4	63	0	build.ninja	563528c9d62fc3ba
-0	161	0	CMakeFiles/shmemlib.dir/src/main/cpp/shm/shmem.cpp.o	9c30d1c16f87c34
-161	211	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libshmemlib.so	e6d1fe1fd44c7f9b

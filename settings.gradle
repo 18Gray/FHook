@@ -1,1 +1,1 @@
-include ':app', ':memorylibrary', ':javahooklibrary', ':nativehooklibrary', ':asmplugin'
+include ':app', ':asmplugin', ':sharedmemory', ':elfhook', ':ptracehook', ':artmethodhook'

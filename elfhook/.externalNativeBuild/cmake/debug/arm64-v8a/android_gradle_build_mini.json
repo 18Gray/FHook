@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/lutao/Projects/Hook/FHook/elfhook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/elfhook/src/main/cpp/xHook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/elfhook/src/main/cpp/xhookapply/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "xhookapply-Debug-arm64-v8a": {
+      "artifactName": "xhookapply",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a --target xhookapply",
+      "abi": "arm64-v8a",
+      "output": "/Users/lutao/Projects/Hook/FHook/elfhook/build/intermediates/cmake/debug/obj/arm64-v8a/libxhookapply.so"
+    },
+    "xhook-Debug-arm64-v8a": {
+      "artifactName": "xhook",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a --target xhook",
+      "abi": "arm64-v8a",
+      "output": "/Users/lutao/Projects/Hook/FHook/elfhook/build/intermediates/cmake/debug/obj/arm64-v8a/libxhook.so"
+    }
+  }
+}

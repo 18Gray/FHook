@@ -1,0 +1,11 @@
+# ninja log v5
+2	54	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xh_log.c.o	490851afe9169f8b
+2	54	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xh_version.c.o	627bfa1ec3c416a1
+0	55	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xhook.c.o	e280dc0adb5c51a6
+1	68	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xh_jni.c.o	e3fd64d1f04e3ed2
+2	103	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xh_util.c.o	2c4ecbea33da973
+1	139	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xh_elf.c.o	6fc1a7cc43e3daf1
+1	149	0	src/main/cpp/xHook/CMakeFiles/xhook.dir/xh_core.c.o	524b48d5546ba1eb
+149	193	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libxhook.so	e4cc551ee88123b7
+1	63	0	src/main/cpp/xhookapply/CMakeFiles/xhookapply.dir/xhookapply.c.o	46d51b58146195a7
+63	98	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libxhookapply.so	fa16d621a1e9b984

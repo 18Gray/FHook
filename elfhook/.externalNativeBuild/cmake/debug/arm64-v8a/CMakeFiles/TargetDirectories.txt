@@ -1,0 +1,8 @@
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/src/main/cpp/xHook/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/src/main/cpp/xHook/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/src/main/cpp/xHook/CMakeFiles/xhook.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/src/main/cpp/xhookapply/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/src/main/cpp/xhookapply/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/arm64-v8a/src/main/cpp/xhookapply/CMakeFiles/xhookapply.dir

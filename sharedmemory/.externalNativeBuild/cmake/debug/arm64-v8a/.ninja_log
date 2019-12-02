@@ -1,0 +1,3 @@
+# ninja log v5
+0	38	0	CMakeFiles/shmemlib.dir/src/main/cpp/shm/shmem.cpp.o	64776d9247e436d3
+38	76	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libshmemlib.so	e6d1fe1fd44c7f9b

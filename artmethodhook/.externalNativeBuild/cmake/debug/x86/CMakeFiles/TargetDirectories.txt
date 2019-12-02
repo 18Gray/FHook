@@ -1,0 +1,2 @@
+/Users/lutao/Projects/Hook/FHook/artmethodhook/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/artmethodhook/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

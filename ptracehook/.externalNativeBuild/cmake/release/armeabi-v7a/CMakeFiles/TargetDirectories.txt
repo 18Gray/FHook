@@ -1,0 +1,11 @@
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/inlinehook/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/inlinehook/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/inlinehook/CMakeFiles/Ihook.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/ptracehook1/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/ptracehook1/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/ptracehook1/CMakeFiles/main.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/ptracehook3/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/ptracehook3/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/ptracehook/ptracehook3/CMakeFiles/inject.dir

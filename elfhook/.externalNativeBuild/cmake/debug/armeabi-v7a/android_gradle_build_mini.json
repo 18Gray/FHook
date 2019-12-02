@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/lutao/Projects/Hook/FHook/elfhook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/elfhook/src/main/cpp/xHook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/elfhook/src/main/cpp/xhookapply/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "xhookapply-Debug-armeabi-v7a": {
+      "artifactName": "xhookapply",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/armeabi-v7a --target xhookapply",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/elfhook/build/intermediates/cmake/debug/obj/armeabi-v7a/libxhookapply.so"
+    },
+    "xhook-Debug-armeabi-v7a": {
+      "artifactName": "xhook",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/armeabi-v7a --target xhook",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/elfhook/build/intermediates/cmake/debug/obj/armeabi-v7a/libxhook.so"
+    }
+  }
+}

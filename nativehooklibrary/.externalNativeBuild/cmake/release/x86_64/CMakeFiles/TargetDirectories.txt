@@ -1,3 +1,0 @@
-/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
-/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
-/Users/lutao/Projects/Hook/FHook/nativehooklibrary/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/main.dir

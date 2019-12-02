@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/lutao/Projects/Hook/FHook/ptracehook/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "inject-Release-x86": {
+      "artifactName": "inject",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/release/x86 --target inject",
+      "abi": "x86",
+      "output": "/Users/lutao/Projects/Hook/FHook/ptracehook/build/intermediates/cmake/release/obj/x86/libinject.so"
+    }
+  }
+}

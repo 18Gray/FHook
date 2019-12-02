@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "/Users/lutao/Projects/Hook/FHook/ptracehook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/ptracehook/src/main/cpp/ptracehook/inlinehook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/ptracehook/src/main/cpp/ptracehook/ptracehook1/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/ptracehook/src/main/cpp/ptracehook/ptracehook3/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "Ihook-Debug-armeabi-v7a": {
+      "artifactName": "Ihook",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/armeabi-v7a --target Ihook",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/ptracehook/build/intermediates/cmake/debug/obj/armeabi-v7a/libIhook.so"
+    },
+    "main-Debug-armeabi-v7a": {
+      "artifactName": "main",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/armeabi-v7a --target main",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/ptracehook/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so"
+    },
+    "inject-Debug-armeabi-v7a": {
+      "artifactName": "inject",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/armeabi-v7a --target inject",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/ptracehook/build/intermediates/cmake/debug/obj/armeabi-v7a/libinject.so"
+    }
+  }
+}

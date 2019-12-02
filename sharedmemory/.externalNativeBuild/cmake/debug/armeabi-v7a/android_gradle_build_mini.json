@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/lutao/Projects/Hook/FHook/sharedmemory/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/sharedmemory/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "shmemlib-Debug-armeabi-v7a": {
+      "artifactName": "shmemlib",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/sharedmemory/.externalNativeBuild/cmake/debug/armeabi-v7a --target shmemlib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lutao/Projects/Hook/FHook/sharedmemory/build/intermediates/cmake/debug/obj/armeabi-v7a/libshmemlib.so"
+    }
+  }
+}

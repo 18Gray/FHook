@@ -1,0 +1,3 @@
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/lutao/Projects/Hook/FHook/ptracehook/.externalNativeBuild/cmake/debug/x86/CMakeFiles/inject.dir

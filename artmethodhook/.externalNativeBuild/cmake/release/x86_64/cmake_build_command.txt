@@ -1,0 +1,15 @@
+Executable : /Users/lutao/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/lutao/Projects/Hook/FHook/artmethodhook
+-B/Users/lutao/Projects/Hook/FHook/artmethodhook/.externalNativeBuild/cmake/release/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-26
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/lutao/Projects/Hook/FHook/artmethodhook/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/lutao/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_TOOLCHAIN_FILE=/Users/lutao/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/lutao/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

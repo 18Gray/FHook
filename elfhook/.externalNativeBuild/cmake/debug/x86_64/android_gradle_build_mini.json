@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/lutao/Projects/Hook/FHook/elfhook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/elfhook/src/main/cpp/xHook/CMakeLists.txt",
+    "/Users/lutao/Projects/Hook/FHook/elfhook/src/main/cpp/xhookapply/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "xhook-Debug-x86_64": {
+      "artifactName": "xhook",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/x86_64 --target xhook",
+      "abi": "x86_64",
+      "output": "/Users/lutao/Projects/Hook/FHook/elfhook/build/intermediates/cmake/debug/obj/x86_64/libxhook.so"
+    },
+    "xhookapply-Debug-x86_64": {
+      "artifactName": "xhookapply",
+      "buildCommand": "/Users/lutao/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lutao/Projects/Hook/FHook/elfhook/.externalNativeBuild/cmake/debug/x86_64 --target xhookapply",
+      "abi": "x86_64",
+      "output": "/Users/lutao/Projects/Hook/FHook/elfhook/build/intermediates/cmake/debug/obj/x86_64/libxhookapply.so"
+    }
+  }
+}
